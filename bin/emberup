@@ -16,6 +16,8 @@ git add .
 git commit -m "Use Ember Decorators"
 
 echo -e "y\n" | ember install ember-cli-mocha
+ember install ember-cli-chai@^0.5.0
+ember install ember-sinon
 yarn add -D sinon-chai
 git add .
 git commit -m "Switch to Mocha/Chai/Sinon for testing"
