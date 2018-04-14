@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+ember new --yarn $1
+cd $1
+
+ember install ember-cli-mirage
+git add .
+git commit -m "Add Mirage"
+
+ember install ember-buffered-proxy
+git add .
+git commit -m "Add Ember Buffered Proxy"
+
+ember install ember-decorators@^2.0.0-beta.1
+git add .
+git commit -m "Use Ember Decorators"
+
+echo -e "y\n" | ember install ember-cli-mocha
+yarn add -D sinon-chai
+git add .
+git commit -m "Switch to Mocha/Chai/Sinon for testing"
+
+yarn add -D babel-eslint eslint-config-airbnb-base
+git add .
+git commit -m "Add lint packages"
