@@ -28,6 +28,20 @@ Clone the repo and add `emberup/bin` to your path.
 emberup myprojectname
 ```
 
+## Manual Steps
+
+The following steps must done manually after running `emberup`; they have not yet been scripted.
+
+As described in [the ember-mocha readme](https://github.com/emberjs/ember-mocha#setting-the-application), replace the contents of `tests/test-helper.js` with the following:
+
+```js
+import Application from '../app';
+import config from '../config/environment';
+import { setApplication } from '@ember/test-helpers';
+
+setApplication(Application.create(config.APP));
+```
+
 ## License
 
 MIT
