@@ -11,6 +11,10 @@ ember install ember-buffered-proxy
 git add .
 git commit -m "Add Ember Buffered Proxy"
 
+ember install ember-simple-auth
+git add .
+git commit -m "Add Ember Simple Auth"
+
 ember install ember-decorators@^2.0.0-beta.1
 git add .
 git commit -m "Use Ember Decorators"
