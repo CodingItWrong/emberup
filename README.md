@@ -11,7 +11,7 @@ Ember project creator with my default addons:
 As well as the following NPM packages:
 
 - [babel-eslint][babel-eslint]
-- [eslint-config-airbnb-base][eslint-config-airbnb-base]
+- [eslint-config-codingitwrong][eslint-config-codingitwrong]
 
 ## Requirements
 
@@ -40,6 +40,35 @@ import config from '../config/environment';
 import { setApplication } from '@ember/test-helpers';
 
 setApplication(Application.create(config.APP));
+```
+
+Add the following lines to `.eslintrc.js`:
+
+```diff
+   root: true,
++  parser: 'babel-eslint',
+   parserOptions: {
+     ecmaVersion: 2017,
+...
+   },
+   rules: {
++    "array-callback-return": "off",
++    "camelcase": "off",
++    "class-methods-use-this": "off",
++    "func-names": "off",
++    "import/extensions": "off",
++    "import/no-extraneous-dependencies": "off",
++    "import/no-unresolved": "off",
++    "no-else-return": "off",
++    "no-restricted-syntax": "off",
++    "no-underscore-dangle": "off",
++    "no-unused-expressions": "off",
++    "prefer-arrow-callback": "off",
++    "prefer-const": "off",
++    "space-before-function-paren": "off",
++    "spaced-comment": "off",
+   },
+   overrides: [
 ```
 
 ## License

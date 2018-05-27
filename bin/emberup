@@ -22,6 +22,6 @@ yarn add -D sinon-chai
 git add .
 git commit -m "Add testing packages"
 
-yarn add -D babel-eslint eslint-config-airbnb-base
+yarn add -D babel-eslint eslint-config-codingitwrong
 git add .
 git commit -m "Add lint packages"
