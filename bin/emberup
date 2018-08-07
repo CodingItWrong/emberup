@@ -1,24 +1,42 @@
 #!/usr/bin/env bash
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
+
 ember new --no-welcome --yarn $1
 cd $1
 
-ember install ember-decorators@^2.0.0-beta.1
+ember install ember-cli-build-notifications
+git add .
+git commit -m "Add build packages"
+
+ember install ember-decorators
 git add .
 git commit -m "Use Ember Decorators"
 
-ember install ember-buffered-proxy
 ember install ember-simple-auth
+mkdir app/adapters
+cp "${DIR}/template/app/adapters/application.js" app/adapters/application.js
+mkdir app/authenticators
+cp "${DIR}/template/app/authenticators/oauth.js" app/authenticators/oauth.js
 git add .
-git commit -m "Add production packages"
+git commit -m "Use Simple Auth"
 
 echo -e "y\n" | ember install ember-cli-mocha
-ember install ember-mocha@^0.14.0-beta.1
-ember install ember-cli-chai@^0.5.0
+yarn remove qunit-dom
+ember install ember-mocha@^0.14.0
+cp "${DIR}/template/tests/test-helper.js" tests/test-helper.js
+mkdir tests/acceptance
+cp "${DIR}/template/tests/acceptance/smoke-test.js" tests/acceptance/smoke-test.js
+git add .
+git commit -m "Switch to Mocha and Chai"
+
 ember install ember-sinon
+yarn add -D sinon-chai
+git add .
+git commit -m "Add Sinon"
+
 ember install ember-test-selectors
 ember install ember-cli-mirage
-yarn add -D sinon-chai
 git add .
 git commit -m "Add testing packages"
 
