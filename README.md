@@ -59,31 +59,17 @@ And:
    }
 ```
 
-Add the following lines to `.eslintrc.js`:
+In `.eslintrc.js`, make the following chnages:
 
 ```diff
-   root: true,
-+  parser: 'babel-eslint',
-   parserOptions: {
-     ecmaVersion: 2017,
-...
-   },
+   extends: [
+-    'eslint:recommended',
++    'eslint-config-codingitwrong',
+     'plugin:ember/recommended'
+   ],
    rules: {
-+    "array-callback-return": "off",
-+    "camelcase": "off",
-+    "class-methods-use-this": "off",
-+    "func-names": "off",
-+    "import/extensions": "off",
-+    "import/no-extraneous-dependencies": "off",
-+    "import/no-unresolved": "off",
-+    "no-else-return": "off",
-+    "no-restricted-syntax": "off",
-+    "no-underscore-dangle": "off",
-+    "no-unused-expressions": "off",
-+    "prefer-arrow-callback": "off",
-+    "prefer-const": "off",
-+    "space-before-function-paren": "off",
-+    "spaced-comment": "off",
++    camelcase: 'off',
++    'max-len: 'off',
    },
    overrides: [
 ```
