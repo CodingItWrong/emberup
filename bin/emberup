@@ -40,6 +40,12 @@ ember install ember-cli-mirage
 git add .
 git commit -m "Add testing packages"
 
+ember install ember-service-worker
+ember install ember-service-worker-index
+ember install ember-service-worker-asset-cache
+git add .
+git commit -m "Add service worker"
+
 yarn add -D babel-eslint eslint-config-codingitwrong
 git add .
 git commit -m "Add lint packages"
