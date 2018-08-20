@@ -6,6 +6,7 @@ ember new --no-welcome --yarn $1
 cd $1
 
 ember install ember-cli-build-notifications
+ember install ember-cli-template-lint
 git add .
 git commit -m "Add build packages"
 
@@ -18,6 +19,7 @@ mkdir app/adapters
 cp "${DIR}/template/app/adapters/application.js" app/adapters/application.js
 mkdir app/authenticators
 cp "${DIR}/template/app/authenticators/oauth.js" app/authenticators/oauth.js
+cp "${DIR}/template/app/controllers/application.js" app/controllers/application.js
 git add .
 git commit -m "Use Simple Auth"
 
