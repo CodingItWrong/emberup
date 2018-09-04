@@ -5,7 +5,7 @@ Ember project creator with my default addons:
 - [Build Notifications][ember-cli-build-notifications]
 - [Decorators][ember-decorators]
 - [Mirage][ember-cli-mirage]
-- [Mocha][ember-cli-mocha] + [Chai][ember-cli-chai] + [Sinon][ember-sinon], including [sinon-chai][sinon-chai] matchers
+- [Mocha][ember-cli-mocha] + [Chai][ember-cli-chai] + [Sinon][ember-sinon], including [chai-dom][chai-dom] [sinon-chai][sinon-chai] matchers
 - [Service Worker][ember-service-worker]
 - [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
 - [Template Lint][ember-cli-template-lint]
@@ -81,6 +81,7 @@ In `.eslintrc.js`, make the following chnages:
 Apache-2.0
 
 [babel-eslint]: https://github.com/babel/babel-eslint#babel-eslint---
+[chai-dom]: https://github.com/nathanboktae/chai-dom
 [ember-cli-build-notifications]: https://github.com/pdud/ember-cli-build-notifications#readme
 [ember-cli-chai]: https://github.com/ember-cli/ember-cli-chai#ember-cli-chai
 [ember-cli-mirage]: https://ember-cli-mirage.com

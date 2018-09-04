@@ -24,6 +24,7 @@ git commit -m "Use Simple Auth"
 
 echo -e "y\n" | ember install ember-cli-mocha
 yarn remove qunit-dom
+yarn add --dev chai-dom
 ember install ember-mocha@^0.14.0
 cp "${DIR}/template/tests/test-helper.js" tests/test-helper.js
 mkdir tests/acceptance
