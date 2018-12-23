@@ -6,6 +6,7 @@ ember new --no-welcome --yarn $1
 cd $1
 
 ember install ember-cli-build-notifications
+ember install ember-cli-bundle-analyzer
 git add .
 git commit -m "Add build packages"
 

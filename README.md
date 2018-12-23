@@ -3,6 +3,7 @@
 Ember project creator with my default addons:
 
 - [Build Notifications][ember-cli-build-notifications]
+- [Bundle Analyzer][ember-cli-bundle-analyzer]
 - [Decorators][ember-decorators]
 - [Mirage][ember-cli-mirage]
 - [Mocha][ember-cli-mocha] + [Chai][ember-cli-chai] + [Sinon][ember-sinon], including [chai-dom][chai-dom] [sinon-chai][sinon-chai] matchers
@@ -83,6 +84,7 @@ Apache-2.0
 [babel-eslint]: https://github.com/babel/babel-eslint#babel-eslint---
 [chai-dom]: https://github.com/nathanboktae/chai-dom
 [ember-cli-build-notifications]: https://github.com/pdud/ember-cli-build-notifications#readme
+[ember-cli-bundle-analyzer]: https://github.com/kaliber5/ember-cli-bundle-analyzer
 [ember-cli-chai]: https://github.com/ember-cli/ember-cli-chai#ember-cli-chai
 [ember-cli-mirage]: https://ember-cli-mirage.com
 [ember-cli-mocha]: https://github.com/ember-cli/ember-cli-mocha
