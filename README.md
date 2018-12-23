@@ -7,7 +7,6 @@ Ember project creator with my default addons:
 - [Decorators][ember-decorators]
 - [Mirage][ember-cli-mirage]
 - [Mocha][ember-cli-mocha] + [Chai][ember-cli-chai] + [Sinon][ember-sinon], including [chai-dom][chai-dom] and [sinon-chai][sinon-chai] matchers
-- [Service Worker][ember-service-worker]
 - [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
 - [Template Lint][ember-cli-template-lint]
 - [Test Selectors][ember-test-selectors]
