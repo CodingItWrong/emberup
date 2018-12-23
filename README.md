@@ -18,7 +18,7 @@ As well as the following NPM packages:
 ## Requirements
 
 - Yarn
-- Ember-CLI
+- Ember CLI
 
 ## Installation
 
