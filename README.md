@@ -8,7 +8,6 @@ Ember project creator with my default addons:
 - [Mirage][ember-cli-mirage]
 - [Mocha][ember-cli-mocha] + [Chai][ember-cli-chai] + [Sinon][ember-sinon], including [chai-dom][chai-dom] and [sinon-chai][sinon-chai] matchers
 - [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
-- [Template Lint][ember-cli-template-lint]
 - [Test Selectors][ember-test-selectors]
 
 As well as the following NPM packages:
@@ -87,7 +86,6 @@ Apache-2.0
 [ember-cli-chai]: https://github.com/ember-cli/ember-cli-chai#ember-cli-chai
 [ember-cli-mirage]: https://ember-cli-mirage.com
 [ember-cli-mocha]: https://github.com/ember-cli/ember-cli-mocha
-[ember-cli-template-lint]: https://github.com/ember-template-lint/ember-cli-template-lint/blob/master/README.md
 [ember-decorators]: https://ember-decorators.github.io/ember-decorators/docs/index.html
 [ember-service-worker]: http://ember-service-worker.com/
 [ember-simple-auth]: http://ember-simple-auth.com/
