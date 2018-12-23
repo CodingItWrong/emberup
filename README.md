@@ -87,7 +87,6 @@ Apache-2.0
 [ember-cli-mirage]: https://ember-cli-mirage.com
 [ember-cli-mocha]: https://github.com/ember-cli/ember-cli-mocha
 [ember-decorators]: https://ember-decorators.github.io/ember-decorators/docs/index.html
-[ember-service-worker]: http://ember-service-worker.com/
 [ember-simple-auth]: http://ember-simple-auth.com/
 [ember-sinon]: https://github.com/csantero/ember-sinon#ember-sinon
 [ember-test-selectors]: https://github.com/simplabs/ember-test-selectors
