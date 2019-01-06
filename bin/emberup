@@ -43,7 +43,11 @@ ember install ember-cli-mirage
 git add .
 git commit -m "Add testing packages"
 
-yarn add -D babel-eslint eslint-config-codingitwrong
+yarn add -D babel-eslint \
+            eslint-config-codingitwrong \
+            prettier \
+            eslint-config-prettier \
+            eslint-plugin-prettier
 git add .
 git commit -m "Add lint packages"
 
