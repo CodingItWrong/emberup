@@ -10,10 +10,12 @@ Ember project creator with my default addons:
 - [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
 - [Test Selectors][ember-test-selectors]
 
-As well as the following NPM packages:
+As well as the following:
 
 - [babel-eslint][babel-eslint]
+- [CircleCI][circleci] configuration
 - [eslint-config-codingitwrong][eslint-config-codingitwrong]
+- [Prettier][prettier] code formatter
 
 ## Requirements
 
@@ -81,6 +83,7 @@ Apache-2.0
 
 [babel-eslint]: https://github.com/babel/babel-eslint#babel-eslint---
 [chai-dom]: https://github.com/nathanboktae/chai-dom
+[circleci]: https://circleci.com/
 [ember-cli-build-notifications]: https://github.com/pdud/ember-cli-build-notifications#readme
 [ember-cli-bundle-analyzer]: https://github.com/kaliber5/ember-cli-bundle-analyzer
 [ember-cli-chai]: https://github.com/ember-cli/ember-cli-chai#ember-cli-chai
@@ -91,4 +94,5 @@ Apache-2.0
 [ember-sinon]: https://github.com/csantero/ember-sinon#ember-sinon
 [ember-test-selectors]: https://github.com/simplabs/ember-test-selectors
 [eslint-config-codingitwrong]: https://github.com/CodingItWrong/eslint-config-codingitwrong
+[prettier]: https://prettier.io/
 [sinon-chai]: https://github.com/domenic/sinon-chai#sinonjs-assertions-for-chai
