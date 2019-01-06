@@ -46,3 +46,7 @@ git commit -m "Add testing packages"
 yarn add -D babel-eslint eslint-config-codingitwrong
 git add .
 git commit -m "Add lint packages"
+
+cp -r "${DIR}/template/.circleci" .circleci
+git add .
+git commit -m "Add CircleCI config"
