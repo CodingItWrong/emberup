@@ -23,13 +23,11 @@ cp "${DIR}/template/app/controllers/application.js" app/controllers/application.
 git add .
 git commit -m "Use Simple Auth"
 
-echo -e "y\n" | ember install ember-cli-mocha
-yarn remove qunit-dom
-yarn add --dev chai-dom
-ember install ember-mocha@^0.14.0
+yarn remove ember-qunit qunit-dom
+ember install ember-mocha
+ember install ember-cli-chai
+yarn add -D chai-dom
 cp "${DIR}/template/tests/test-helper.js" tests/test-helper.js
-mkdir tests/acceptance
-cp "${DIR}/template/tests/acceptance/smoke-test.js" tests/acceptance/smoke-test.js
 git add .
 git commit -m "Switch to Mocha and Chai"
 
