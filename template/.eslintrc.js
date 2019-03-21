@@ -8,7 +8,7 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
   },
-  plugins: ['ember'],
+  plugins: ['ember', 'prettier'],
   extends: [
     'plugin:ember/recommended',
     'codingitwrong',
