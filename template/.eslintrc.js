@@ -6,22 +6,20 @@ module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2017,
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: [
-    'ember'
-  ],
+  plugins: ['ember'],
   extends: [
     'plugin:ember/recommended',
     'codingitwrong',
     'plugin:prettier/recommended',
   ],
   env: {
-    browser: true
+    browser: true,
   },
   rules: {
-    "camelcase": "off", // for destructuring underscored values
-    "require-await": "off", // for consistency in rendering tests
+    camelcase: 'off', // for destructuring underscored values
+    'require-await': 'off', // for consistency in rendering tests
   },
   overrides: [
     // node files
@@ -34,16 +32,16 @@ module.exports = {
         'ember-cli-build.js',
         'blueprints/*/index.js',
         'config/**/*.js',
-        'lib/*/index.js'
+        'lib/*/index.js',
       ],
       parserOptions: {
         sourceType: 'script',
-        ecmaVersion: 2015
+        ecmaVersion: 2015,
       },
       env: {
         browser: false,
-        node: true
-      }
-    }
-  ]
+        node: true,
+      },
+    },
+  ],
 };
