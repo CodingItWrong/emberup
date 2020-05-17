@@ -7,7 +7,7 @@ cd $1
 
 ember install ember-cli-build-notifications
 git add .
-git commit -m "Add build packages"
+git commit -m "Add build notifications"
 
 ember install ember-simple-auth
 mkdir app/adapters
