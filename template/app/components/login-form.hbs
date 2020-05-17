@@ -1,0 +1,16 @@
+<form onsubmit={{this.logIn}}>
+  <p>{{this.errorMessage}}</p>
+  <div>
+    <label>
+      Email
+      <Input type="email" name="email" @value={{this.email}} />
+    </label>
+  </div>
+  <div>
+    <label>
+      Password
+      <Input type="password" name="password" @value={{this.password}} />
+    </label>
+  </div>
+  <button type="submit">Log In</button>
+</form>
