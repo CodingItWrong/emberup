@@ -10,7 +10,7 @@ Ember project creator with my default addons:
 
 As well as the following:
 
-- [CircleCI][circleci] configuration
+- [GitHub Actions][github-actions] configuration for CI
 - [Prettier][prettier] code formatter
 
 ## Requirements
@@ -81,5 +81,6 @@ Apache-2.0
 [ember-sinon]: https://github.com/csantero/ember-sinon#ember-sinon
 [ember-test-selectors]: https://github.com/simplabs/ember-test-selectors
 [eslint-config-codingitwrong]: https://github.com/CodingItWrong/eslint-config-codingitwrong
+[github-actions]: https://github.com/features/actions
 [prettier]: https://prettier.io/
 [sinon-chai]: https://github.com/domenic/sinon-chai#sinonjs-assertions-for-chai

@@ -38,9 +38,9 @@ cp "${DIR}/template/.prettierrc" .prettierrc
 git add .
 git commit -m "Add lint packages"
 
-cp -r "${DIR}/template/.circleci" .circleci
+cp -r "${DIR}/template/github" .github
 git add .
-git commit -m "Add CircleCI config"
+git commit -m "Add GitHub Actions config"
 
 ember generate serializer application
 git add .
