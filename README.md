@@ -5,7 +5,7 @@ Ember project creator with my default addons:
 - [Build Notifications][ember-cli-build-notifications]
 - [Bundle Analyzer][ember-cli-bundle-analyzer]
 - [Mirage][ember-cli-mirage]
-- [Mocha][ember-mocha] + [Chai][ember-cli-chai] + [Sinon][ember-sinon], including [chai-dom][chai-dom] and [sinon-chai][sinon-chai] matchers
+- [Sinon][ember-sinon-qunit]
 - [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
 - [Test Selectors][ember-test-selectors]
 

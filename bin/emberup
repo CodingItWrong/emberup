@@ -19,16 +19,7 @@ cp "${DIR}/template/app/controllers/application.js" app/controllers/application.
 git add .
 git commit -m "Use Simple Auth"
 
-yarn remove ember-qunit qunit-dom
-ember install ember-mocha
-ember install ember-cli-chai
-yarn add -D chai-dom
-cp "${DIR}/template/tests/test-helper.js" tests/test-helper.js
-git add .
-git commit -m "Switch to Mocha and Chai"
-
-ember install ember-sinon
-yarn add -D sinon-chai
+ember install ember-sinon-qunit
 git add .
 git commit -m "Add Sinon"
 
