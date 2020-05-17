@@ -10,10 +10,6 @@ ember install ember-cli-bundle-analyzer
 git add .
 git commit -m "Add build packages"
 
-ember install ember-decorators
-git add .
-git commit -m "Use Ember Decorators"
-
 ember install ember-simple-auth
 mkdir app/adapters
 cp "${DIR}/template/app/adapters/application.js" app/adapters/application.js
