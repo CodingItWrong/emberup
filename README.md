@@ -3,7 +3,6 @@
 Ember project creator with my default addons:
 
 - [Build Notifications][ember-cli-build-notifications]
-- [Bundle Analyzer][ember-cli-bundle-analyzer]
 - [Mirage][ember-cli-mirage]
 - [Sinon][ember-sinon-qunit]
 - [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
