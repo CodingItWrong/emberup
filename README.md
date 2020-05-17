@@ -11,7 +11,6 @@ Ember project creator with my default addons:
 
 As well as the following:
 
-- [babel-eslint][babel-eslint]
 - [CircleCI][circleci] configuration
 - [Prettier][prettier] code formatter
 
