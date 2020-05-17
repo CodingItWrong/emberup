@@ -32,12 +32,6 @@ emberup myprojectname
 
 The following steps must done manually after running `emberup`; they have not yet been scripted.
 
-In `package.json` add the following script:
-
-```
-"format": "prettier --write \"{app,config,mirage,tests}/**/*.js\"",
-```
-
 In `config/environment.js`, add the following:
 
 ```diff
