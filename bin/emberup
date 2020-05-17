@@ -34,7 +34,7 @@ yarn add -D prettier \
             eslint-config-prettier \
             eslint-plugin-prettier@2.6.0
 cp "${DIR}/template/.eslintrc.js" .eslintrc.js
-cp "${DIR}/template/.prettierrc.js" .prettierrc.js
+cp "${DIR}/template/.prettierrc" .prettierrc
 git add .
 git commit -m "Add lint packages"
 
