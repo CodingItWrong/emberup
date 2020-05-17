@@ -68,19 +68,10 @@ And:
 
 Apache-2.0
 
-[babel-eslint]: https://github.com/babel/babel-eslint#babel-eslint---
-[chai-dom]: https://github.com/nathanboktae/chai-dom
-[circleci]: https://circleci.com/
 [ember-cli-build-notifications]: https://github.com/pdud/ember-cli-build-notifications#readme
-[ember-cli-bundle-analyzer]: https://github.com/kaliber5/ember-cli-bundle-analyzer
-[ember-cli-chai]: https://github.com/ember-cli/ember-cli-chai#ember-cli-chai
 [ember-cli-mirage]: https://ember-cli-mirage.com
-[ember-mocha]: https://github.com/emberjs/ember-mocha
-[ember-decorators]: https://ember-decorators.github.io/ember-decorators/docs/index.html
 [ember-simple-auth]: http://ember-simple-auth.com/
-[ember-sinon]: https://github.com/csantero/ember-sinon#ember-sinon
+[ember-sinon-qunit]: https://github.com/elwayman02/ember-sinon-qunit
 [ember-test-selectors]: https://github.com/simplabs/ember-test-selectors
-[eslint-config-codingitwrong]: https://github.com/CodingItWrong/eslint-config-codingitwrong
 [github-actions]: https://github.com/features/actions
 [prettier]: https://prettier.io/
-[sinon-chai]: https://github.com/domenic/sinon-chai#sinonjs-assertions-for-chai
