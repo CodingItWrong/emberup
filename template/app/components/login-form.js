@@ -22,11 +22,10 @@ export default class LoginFormComponent extends Component {
     try {
       await this.session.authenticate('authenticator:oauth', email, password);
 
-      console.log('success');
-
       // TODO configure this with a prop
       this.router.transitionTo('index');
     } catch (e) {
+      // eslint-disable-next-line no-console
       console.error(e);
       this.errorMessage =
         e?.responseJSON?.error_description ??
