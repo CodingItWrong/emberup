@@ -30,6 +30,7 @@ export default class LoginFormComponent extends Component {
       console.error(e);
       this.errorMessage =
         e?.responseJSON?.error_description ??
+        e?.message ??
         'An error occurred while logging in.';
     }
   }
