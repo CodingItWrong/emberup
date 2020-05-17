@@ -45,3 +45,7 @@ git commit -m "Add CircleCI config"
 ember generate serializer application
 git add .
 git commit -m "Add default JSON:API adapter and serializer"
+
+yarn lint:js --fix
+git add .
+git commit -m "Prettier format"
