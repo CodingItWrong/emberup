@@ -41,7 +41,6 @@ git commit -m "Add testing packages"
 yarn add -D ember-cli-eslint@^5.1.0
 
 yarn add -D babel-eslint \
-            eslint-config-codingitwrong \
             prettier \
             eslint-config-prettier \
             eslint-plugin-prettier@2.6.0

@@ -13,7 +13,6 @@ As well as the following:
 
 - [babel-eslint][babel-eslint]
 - [CircleCI][circleci] configuration
-- [eslint-config-codingitwrong][eslint-config-codingitwrong]
 - [Prettier][prettier] code formatter
 
 ## Requirements
