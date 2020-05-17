@@ -31,8 +31,7 @@ git commit -m "Add testing packages"
 # force update ember-cli-eslint and its dependencies to fix some kind of error
 yarn add -D ember-cli-eslint@^5.1.0
 
-yarn add -D babel-eslint \
-            prettier \
+yarn add -D prettier \
             eslint-config-prettier \
             eslint-plugin-prettier@2.6.0
 cp "${DIR}/template/.eslintrc.js" .eslintrc.js
