@@ -11,10 +11,14 @@ git commit -m "Add build packages"
 
 ember install ember-simple-auth
 mkdir app/adapters
-cp "${DIR}/template/app/adapters/application.js" app/adapters/application.js
+cp "${DIR}/template/app/adapters/application.js" app/adapters
 mkdir app/authenticators
-cp "${DIR}/template/app/authenticators/oauth.js" app/authenticators/oauth.js
-cp "${DIR}/template/app/controllers/application.js" app/controllers/application.js
+cp "${DIR}/template/app/authenticators/oauth.js" app/authenticators
+mkdir app/components
+cp -r "${DIR}/template/app/components" app
+cp "${DIR}/template/app/controllers/application.js" app/controllers
+mkdir app/templates
+cp "${DIR}/template/app/templates/application.hbs" app/templates
 git add .
 git commit -m "Use Simple Auth"
 
@@ -44,7 +48,7 @@ git commit -m "Add GitHub Actions config"
 
 ember generate serializer application
 git add .
-git commit -m "Add default JSON:API adapter and serializer"
+git commit -m "Add default JSON:API serializer"
 
 yarn lint:js --fix
 git add .
