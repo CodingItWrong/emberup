@@ -47,6 +47,7 @@ git add .
 git commit -m "Add GitHub Actions config"
 
 ember generate serializer application
+rm -fr tests/unit/serializers
 git add .
 git commit -m "Add default JSON:API serializer"
 
