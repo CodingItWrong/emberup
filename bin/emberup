@@ -44,7 +44,7 @@ git commit -m "Add lint packages"
 
 cp -r "${DIR}/template/github" .github
 git add .
-git commit -m "Add GitHub Actions config"
+git commit -m "Set up GitHub Actions workflow"
 
 ember generate serializer application
 rm -fr tests/unit/serializers
