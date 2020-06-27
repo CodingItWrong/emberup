@@ -42,6 +42,7 @@ cp "${DIR}/template/.prettierrc" .prettierrc
 git add .
 git commit -m "Add lint packages"
 
+rm .travis.yml
 cp -r "${DIR}/template/github" .github
 git add .
 git commit -m "Set up GitHub Actions workflow"

@@ -10,7 +10,7 @@ Ember project creator with my default addons:
 
 As well as the following:
 
-- [GitHub Actions][github-actions] configuration for CI
+- [GitHub Actions][github-actions] configuration for CI, instead of Travis
 - [Prettier][prettier] code formatter
 
 ## Requirements
