@@ -10,6 +10,7 @@ Ember project creator with my default addons:
 
 As well as the following:
 
+- [Dependabot][dependabot] configuration for dependency updates
 - [GitHub Actions][github-actions] configuration for CI, instead of Travis
 - [Prettier][prettier] code formatter
 
@@ -59,6 +60,7 @@ And:
 
 Apache-2.0
 
+[dependabot]: https://dependabot.com/
 [ember-cli-build-notifications]: https://github.com/pdud/ember-cli-build-notifications#readme
 [ember-cli-mirage]: https://ember-cli-mirage.com
 [ember-simple-auth]: http://ember-simple-auth.com/

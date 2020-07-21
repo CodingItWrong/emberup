@@ -47,6 +47,10 @@ cp -r "${DIR}/template/github" .github
 git add .
 git commit -m "Set up GitHub Actions workflow"
 
+cp -r "${DIR}/template/dependabot" .dependabot
+git add .
+git commit -m "Configure Dependabot dependency updates"
+
 ember generate serializer application
 rm -fr tests/unit/serializers
 git add .

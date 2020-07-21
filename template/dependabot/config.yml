@@ -1,0 +1,17 @@
+version: 1
+update_configs:
+  - package_manager: 'javascript'
+    directory: '/'
+    update_schedule: 'monthly'
+    # do not automatically update ember core packages:
+    # use `ember-cli-update` to update project template as well
+    ignored_updates:
+      - match:
+          dependency_name: 'ember-cli'
+          version_requirement: '*'
+      - match:
+          dependency_name: 'ember-data'
+          version_requirement: '*'
+      - match:
+          dependency_name: 'ember-source'
+          version_requirement: '*'
