@@ -23,5 +23,11 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Lint Code
+        run: yarn lint:js
+
+      - name: Lint Templates
+        run: yarn lint:hbs
+
       - name: Run Tests
         run: yarn test:ember
