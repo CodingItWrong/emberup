@@ -3,7 +3,7 @@ import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service';
 
-export default class LoginFormComponent extends Component {
+export default class SignInFormComponent extends Component {
   @service session;
   @service router;
 
@@ -14,7 +14,7 @@ export default class LoginFormComponent extends Component {
   errorMessage = '';
 
   @action
-  async logIn(event) {
+  async signIn(event) {
     event.preventDefault();
 
     let { email, password } = this;

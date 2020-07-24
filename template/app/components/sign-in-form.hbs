@@ -1,4 +1,4 @@
-<form onsubmit={{this.logIn}}>
+<form {{on 'submit' this.signIn}}>
   <p>{{this.errorMessage}}</p>
   <div>
     <label>
@@ -12,5 +12,6 @@
       <Input type="password" name="password" @value={{this.password}} />
     </label>
   </div>
-  <button type="submit">Log In</button>
+  <button type="submit">Sign In</button>
+  <LinkTo @route="user.new">Sign Up</LinkTo>
 </form>

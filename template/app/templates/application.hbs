@@ -3,8 +3,10 @@
 {{#if this.session.isAuthenticated}}
   Signed In.
   <button onclick={{this.signOut}}>Sign Out</button>
-{{else}}
-  <LoginForm />
 {{/if}}
 
-{{outlet}}
+{{#if this.routeRequiresAuthentication}}
+  <SignInForm />
+{{else}}
+  {{outlet}}
+{{/if}}

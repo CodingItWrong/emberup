@@ -14,11 +14,11 @@ mkdir app/adapters
 cp "${DIR}/template/app/adapters/application.js" app/adapters
 mkdir app/authenticators
 cp "${DIR}/template/app/authenticators/oauth.js" app/authenticators
-mkdir app/components
 cp -r "${DIR}/template/app/components" app
-cp "${DIR}/template/app/controllers/application.js" app/controllers
-mkdir app/templates
-cp "${DIR}/template/app/templates/application.hbs" app/templates
+cp -r "${DIR}/template/app/controllers" app
+cp -r "${DIR}/template/app/models" app
+cp -r "${DIR}/template/app/templates" app
+cp "${DIR}/template/app/router.js" app
 git add .
 git commit -m "Use Simple Auth"
 

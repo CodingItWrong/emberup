@@ -1,0 +1,39 @@
+<h2>Sign Up</h2>
+
+<form {{on 'submit' this.signUp}}>
+  <p>{{this.errorMessage}}</p>
+  <div>
+    <label>
+      Email
+      <Input
+        type="email"
+        name="email"
+        @value={{this.email}}
+      />
+    </label>
+  </div>
+  <div>
+    <label>
+      Password
+      <Input
+        type="password"
+        name="password"
+        @value={{this.password}}
+      />
+    </label>
+  </div>
+  <div>
+    <label>
+      Confirm Password
+      <Input
+        type="passwordConfirmation"
+        name="passwordConfirmation"
+        @value={{this.passwordConfirmation}}
+      />
+    </label>
+  </div>
+  <button type="button" {{on 'click' @onCancel}}>
+    Cancel
+  </button>
+  <button type="submit">Sign Up</button>
+</form>

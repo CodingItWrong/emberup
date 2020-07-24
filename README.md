@@ -10,6 +10,7 @@ Ember project creator with my default addons:
 
 As well as the following:
 
+- Sign In and Sign Up forms
 - [Dependabot][dependabot] configuration for dependency updates
 - [GitHub Actions][github-actions] configuration for CI, instead of Travis
 - [Prettier][prettier] code formatter
