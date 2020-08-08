@@ -6,7 +6,7 @@
 {{/if}}
 
 {{#if this.routeRequiresAuthentication}}
-  <SignInForm />
+  <SignInForm @onSignedIn={{this.handleSignIn}} />
 {{else}}
   {{outlet}}
 {{/if}}

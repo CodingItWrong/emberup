@@ -1,15 +1,30 @@
-<form {{on 'submit' this.signIn}}>
-  <p>{{this.errorMessage}}</p>
+<form
+  {{on 'submit' this.signIn}}
+  data-test-sign-in-form
+>
+  <p data-test-error-message>
+    {{this.errorMessage}}
+  </p>
   <div>
     <label>
       Email
-      <Input type="email" name="email" @value={{this.email}} />
+      <Input
+        type="email"
+        name="email"
+        @value={{this.email}}
+        data-test-email-field
+      />
     </label>
   </div>
   <div>
     <label>
       Password
-      <Input type="password" name="password" @value={{this.password}} />
+      <Input
+        type="password"
+        name="password"
+        @value={{this.password}}
+        data-test-password-field
+      />
     </label>
   </div>
   <button type="submit">Sign In</button>

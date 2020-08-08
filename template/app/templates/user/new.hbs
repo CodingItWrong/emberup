@@ -1,1 +1,4 @@
-<SignUpForm @onCancel={{this.goToSignIn}} />
+<SignUpForm
+  @signUp={{this.handleSignUp}}
+  @onCancel={{this.goToSignIn}}
+/>

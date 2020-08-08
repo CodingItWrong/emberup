@@ -22,8 +22,7 @@ export default class SignInFormComponent extends Component {
     try {
       await this.session.authenticate('authenticator:oauth', email, password);
 
-      // TODO configure this with a prop
-      this.router.transitionTo('index');
+      this.args.onSignedIn();
     } catch (e) {
       // eslint-disable-next-line no-console
       console.error(e);

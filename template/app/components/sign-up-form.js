@@ -22,16 +22,10 @@ export default class SignUpFormComponent extends Component {
     }
 
     const { email, password } = this;
-
-    const user = this.store.createRecord('user', { email, password });
+    const { signUp } = this.args;
 
     try {
-      await user.save();
-      this.store.unloadAll('user');
-      await this.session.authenticate('authenticator:oauth', email, password);
-
-      // TODO configure this with a prop
-      this.router.transitionTo('index');
+      await signUp({ email, password });
     } catch (e) {
       // eslint-disable-next-line no-console
       console.error(e);

@@ -17,6 +17,11 @@ export default class ApplicationController extends Controller {
   }
 
   @action
+  handleSignIn() {
+    this.transitionToRoute('index');
+  }
+
+  @action
   async signOut() {
     this.session.invalidate();
     this.transitionToRoute('index');

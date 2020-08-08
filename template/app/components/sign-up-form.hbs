@@ -1,7 +1,12 @@
 <h2>Sign Up</h2>
 
-<form {{on 'submit' this.signUp}}>
-  <p>{{this.errorMessage}}</p>
+<form
+  {{on 'submit' this.signUp}}
+  data-test-sign-up-form
+>
+  <p data-test-error-message>
+    {{this.errorMessage}}
+  </p>
   <div>
     <label>
       Email
@@ -9,6 +14,7 @@
         type="email"
         name="email"
         @value={{this.email}}
+        data-test-email-field
       />
     </label>
   </div>
@@ -19,6 +25,7 @@
         type="password"
         name="password"
         @value={{this.password}}
+        data-test-password-field
       />
     </label>
   </div>
@@ -29,6 +36,7 @@
         type="passwordConfirmation"
         name="passwordConfirmation"
         @value={{this.passwordConfirmation}}
+        data-test-password-confirmation-field
       />
     </label>
   </div>

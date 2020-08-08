@@ -19,6 +19,7 @@ cp -r "${DIR}/template/app/controllers" app
 cp -r "${DIR}/template/app/models" app
 cp -r "${DIR}/template/app/templates" app
 cp "${DIR}/template/app/router.js" app
+cp -r "${DIR}/template/tests" .
 git add .
 git commit -m "Use Simple Auth"
 
