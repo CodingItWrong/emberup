@@ -14,7 +14,7 @@ As well as the following:
 - [Dependabot][dependabot] configuration for dependency updates
 - [GitHub Actions][github-actions] configuration for CI, instead of Travis
 - [Prettier][prettier] code formatter
-- Husky and Lint-Staged to lint staged files upon commit
+- [Husky](https://github.com/typicode/husky) and [Lint-Staged](https://github.com/okonet/lint-staged) for linting staged files upon commit
 
 ## Requirements
 
