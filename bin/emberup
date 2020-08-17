@@ -37,7 +37,9 @@ yarn add -D ember-cli-eslint@^5.1.0
 
 yarn add -D prettier \
             eslint-config-prettier \
-            eslint-plugin-prettier@2.6.0
+            eslint-plugin-prettier@2.6.0 \
+            husky \
+            lint-staged
 cp "${DIR}/template/.eslintrc.js" .eslintrc.js
 cp "${DIR}/template/.prettierrc" .prettierrc
 git add .

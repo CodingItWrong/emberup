@@ -14,6 +14,7 @@ As well as the following:
 - [Dependabot][dependabot] configuration for dependency updates
 - [GitHub Actions][github-actions] configuration for CI, instead of Travis
 - [Prettier][prettier] code formatter
+- Husky and Lint-Staged to lint staged files upon commit
 
 ## Requirements
 
@@ -55,6 +56,24 @@ And:
      // here you can enable a production-specific feature
 +    ENV.apiHost = 'https://url.of.your.production.api';
    }
+```
+
+In `package.json` add:
+
+```diff
+   "ember": {
+     "edition": "octane"
++  },
++  "husky": {
++    "hooks": {
++      "pre-commit": "lint-staged"
++    }
++  },
++  "lint-staged": {
++    "*.js": "eslint",
++    "*.hbs": "ember-template-lint"
+   }
+ }
 ```
 
 ## License
