@@ -1,7 +1,7 @@
 import JSONAPIAdapter from '@ember-data/adapter/json-api';
+import { computed } from '@ember/object';
 // eslint-disable-next-line ember/no-mixins
 import DataAdapterMixin from 'ember-simple-auth/mixins/data-adapter-mixin';
-import { computed } from '@ember/object';
 import ENV from '../config/environment';
 
 export default class ApplicationAdapter extends JSONAPIAdapter.extend(
