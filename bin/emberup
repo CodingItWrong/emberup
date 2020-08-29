@@ -42,8 +42,9 @@ yarn add -D prettier \
             lint-staged
 cp "${DIR}/template/.eslintrc.js" .eslintrc.js
 cp "${DIR}/template/.prettierrc" .prettierrc
+cp "${DIR}/template/.template-lintrc.js" .template-lintrc.js
 git add .
-git commit -m "Add lint packages"
+git commit -m "Add lint packages and config"
 
 rm .travis.yml
 cp -r "${DIR}/template/github" .github
