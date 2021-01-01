@@ -5,6 +5,10 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 ember new --no-welcome --yarn $1
 cd $1
 
+echo "package-lock=false" >> .npmrc
+git add .
+git commit -m "Prevent package lock"
+
 ember install ember-cli-build-notifications
 git add .
 git commit -m "Add build notifications"
