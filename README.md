@@ -2,7 +2,6 @@
 
 Ember project creator with my default addons:
 
-- [Build Notifications][ember-cli-build-notifications]
 - [Mirage][ember-cli-mirage]
 - [Sinon][ember-sinon-qunit]
 - [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
@@ -81,7 +80,6 @@ In `package.json` add:
 Apache-2.0
 
 [dependabot]: https://dependabot.com/
-[ember-cli-build-notifications]: https://github.com/pdud/ember-cli-build-notifications#readme
 [ember-cli-mirage]: https://ember-cli-mirage.com
 [ember-simple-auth]: http://ember-simple-auth.com/
 [ember-sinon-qunit]: https://github.com/elwayman02/ember-sinon-qunit

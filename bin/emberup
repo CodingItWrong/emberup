@@ -9,10 +9,6 @@ echo "package-lock=false" >> .npmrc
 git add .
 git commit -m "Prevent package lock"
 
-ember install ember-cli-build-notifications
-git add .
-git commit -m "Add build notifications"
-
 ember install ember-simple-auth
 mkdir app/adapters
 cp "${DIR}/template/app/adapters/application.js" app/adapters
