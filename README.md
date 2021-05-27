@@ -2,17 +2,17 @@
 
 Ember project creator with my default addons:
 
-- [Mirage][ember-cli-mirage]
-- [Sinon][ember-sinon-qunit]
-- [Simple Auth][ember-simple-auth] preconfigured for OAuth2 password grant
-- [Test Selectors][ember-test-selectors]
+- [Mirage](https://ember-cli-mirage.com)
+- [Sinon](https://github.com/elwayman02/ember-sinon-qunit)
+- [Simple Auth](http://ember-simple-auth.com/) preconfigured for OAuth2 password grant
+- [Test Selectors](https://github.com/simplabs/ember-test-selectors)
 
 As well as the following:
 
 - Sign In and Sign Up forms
-- [Dependabot][dependabot] configuration for dependency updates
-- [GitHub Actions][github-actions] configuration for CI, instead of Travis
-- [Prettier][prettier] code formatter
+- [Dependabot](https://dependabot.com/) configuration for dependency updates
+- [GitHub Actions](https://github.com/features/actions) configuration for CI, instead of Travis
+- [Prettier](https://prettier.io/) code formatter
 - [Husky](https://github.com/typicode/husky) and [Lint-Staged](https://github.com/okonet/lint-staged) for linting staged files upon commit
 
 ## Requirements
@@ -78,11 +78,3 @@ In `package.json` add:
 ## License
 
 Apache-2.0
-
-[dependabot]: https://dependabot.com/
-[ember-cli-mirage]: https://ember-cli-mirage.com
-[ember-simple-auth]: http://ember-simple-auth.com/
-[ember-sinon-qunit]: https://github.com/elwayman02/ember-sinon-qunit
-[ember-test-selectors]: https://github.com/simplabs/ember-test-selectors
-[github-actions]: https://github.com/features/actions
-[prettier]: https://prettier.io/
